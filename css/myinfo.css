@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'MicrosoftYaHei Regular Bold';
+	color: rgb(123,123,123);
+	width: 100%;
+}
+.my_hea{
+	width: 100%;
+	height: 60px;
+	border-bottom: 1px solid #ccc;
+	position: fixed;
+	/*line-height: 500%;*/
+}
+#bac{
+	height: 20px;
+	padding-top: 20px;
+	padding-left: 10px;
+	z-index: 2;
+	position: absolute;
+}
+#lis{
+	padding-top: 60px;
+}
+#lis ul{
+	padding: 20px 0;
+	height: 30px;
+}
+
+#non{
+	list-style-type: none;
+	float: left;
+	padding-left: 25%;
+}
+#bee{
+	list-style-type: none;
+	float: right;
+	padding-right: 25%;
+}
+#dont li,#done li{
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 88px;
+	border-bottom: 1px solid #aaa;
+	background-color: rgb(225,225,225);
+}
+#pic_sml{
+	float: left;
+}
+#dont img,#dont span,#done img,#done span{
+	padding-left: 10px;
+}
+
+#del{
+	float: right;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+/*切换*/
+.hide{
+	display: none;
+}
+.show{
+	display: block;
+}
+.active{
+	color: blue;
+}

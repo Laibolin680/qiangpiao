@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'MicrosoftYaHei Regular Bold';
+	color: rgb(123,123,123);
+	width: 100%;
+	height: 100%;
+}
+#bac{
+	height: 20px;
+	padding-top: 10px;
+	padding-left: 10px;
+	z-index: 2;
+	position: absolute;
+}
+#pos{
+	width: 100%;
+	float: left;
+	z-index: 1;
+}
+.inf{
+	padding: 10px 10px;
+	border-bottom: 1px solid #ccc;
+}
+/*#dat{
+	padding: 20px 10px;
+}*/
+#tic{
+	float: right;
+	padding-right: 10px;
+}
+#loc{
+	padding: 10px 0px; 
+}
+section h3{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+section p{
+	padding-left: 20px;
+}
+.bot{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+}
+.lef{
+	background-color: #00a0ff;
+	float: left;
+	width: 65%;
+	height: 60px;
+	text-align: center;
+}
+.rig input{
+	text-align: center;
+	background-color: #ff9933;
+	border: 0;
+	width: 35%;
+	height: 60px;
+}
+/*弹窗设置*/
+.modal{
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.4);
+}
+.modal-con{
+	background-color: #fefefe;
+	border-radius: 5px;
+	margin: 70% auto;
+	padding-top: 30px;
+	text-align: center;
+	width: 80%;
+	height: 100px;
+	font-size: 25px;
+}
+#clo{
+	background-color: rgb(151,151,151);
+	color: #ffffff;
+	height: 25px;
+	width: 60px;
+	border-radius: 3px;
+}
+#clo:hover,
+#clo:focus{
+	color: gray;
+	cursor: pointer;
+}
+
